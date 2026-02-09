@@ -1,0 +1,174 @@
+    .subContaierOne{
+    margin-top: -150px;
+    padding: 36vh 0 0 7vw ;
+    min-height:90vh;
+    background-image: url('../../../img/bg-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.3; */
+    background-color: rgba(0,0,0,0.5);
+}
+
+.title{
+    color: var(--titleColor);
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 2px;
+    letter-spacing: 2px;
+  }
+  .titleHead{
+      font-size: 3rem;
+      margin-top: -15px;
+      position: absolute;
+      font-weight: 700;
+      letter-spacing: 2px;
+  
+  }
+  .para{
+      margin-top: 60px;
+      font-size: var(--paraText);
+  }
+.checkS{
+    margin-top: 30vh;
+    padding: 2rem 7rem;
+}
+.box{
+    margin-top: 20VH;
+}
+.subServiceContainer{
+    display: flex;
+    padding: 2rem;
+}
+.subServiceContainerOne{
+    flex: 1;
+}
+.subServiceContainerOneHead {
+    padding: 1.4rem ;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 52px;
+}
+.subServiceContainerOnePara{
+    padding: 0 1.4rem ;
+    /* letter-spacing: 1px; */
+    font-size: 15px;
+}
+.subServiceContainerTwo{
+    flex: 1;
+    margin-top: 30PX;
+    gap: 20px;
+}
+.subServiceContainerTwoPara{
+    padding: 0  1.4rem ;
+    /* letter-spacing: 1px; */
+    font-size: 15px;
+}
+
+.serImgContainer{
+    display: flex;
+    max-width: 100%;
+    padding: 0 2.5rem;
+    background-color: black;
+  align-items: center;
+}
+
+.serImgContainer img{
+    object-fit: contain;
+    /* opacity: 0.7; */
+    margin:10px 10px 10px 20px;
+
+}
+.serviceImgContainerOne{
+    
+flex: 1;
+}
+.serviceImgContainerTwo{
+    text-align: center;
+    gap: 60px;
+    }
+.checkSer{
+    padding: 10vh 6rem 0vh 6rem;
+}
+@media screen and (max-width: 1400px){
+    .serImgContainer{
+        flex-direction: column;
+    }
+    .serviceImgContainerTwo img{
+        width: 600px;
+    }
+
+}
+@media screen and (max-width: 980px){
+    .subContaierOne{
+        margin-top: -150px;
+        padding: 35vh 0 0 5vw ;
+        max-height: 50vh;
+    }
+    .overlay{
+       display: none;
+    }
+    .title{
+      font-size: 3rem;
+        font-weight: 200;
+      line-height: 45px;
+    }
+    .titleHead{
+        font-weight: 500;
+        font-size: 3rem;
+        margin-top: 7px;
+        width:0px;
+    }
+    .para{
+        margin-top: 170px;
+        font-size: var(--paraText);
+        width:95%;
+    }
+    .checkS{
+        margin-top: 30vh;
+        padding: 2rem 0rem;
+    }
+    .box{
+        margin-top: 20VH;
+    }
+    .subServiceContainer{
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .subServiceContainerOne{
+        flex: 1;
+    }
+    .subServiceContainerOneHead {
+        padding: 1.4rem 0.5rem;
+        line-height: 48px;
+    }
+    .subServiceContainerOnePara{
+        padding: 0 0.5rem ;
+        font-size: 15px;
+    }
+    .subServiceContainerTwo{
+        flex: 1;
+        margin-top: 20PX;
+        gap: 20px;
+    }
+    .subServiceContainerTwoPara{
+        padding: 0  0.5rem ;
+        /* letter-spacing: 1px; */
+        font-size: 15px;
+    }
+    
+    .serImgContainer{
+        padding: 0 ;
+        width: 100%;
+        background-color: black;
+    }
+    
+    
+    .serImgContainer img{
+        margin-left: 0px;
+        width: 90%;
+    }
+    .checkSer{
+        padding: 10vh 0rem 0vh 1.5rem;
+    }
+}    

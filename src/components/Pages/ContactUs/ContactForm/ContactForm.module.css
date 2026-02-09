@@ -1,0 +1,65 @@
+.inputField{
+ padding: 0.8rem 10rem 0.8rem 0.5rem;
+ margin: 1rem;
+color: var(--textColor);
+ background-color: var(--bgColor);
+ border: 0.5px solid rgb(67, 65, 65);
+}
+
+textarea {
+    resize: none;
+    width: 500px;
+  }
+  .inputFieldD{
+    padding: 0.8rem 11rem 0.8rem 1rem;
+ margin: 1rem;
+color: var(--textColor);
+ background-color: var(--bgColor);
+ border: 0.5px solid rgb(67, 65, 65);
+ opacity: 0.7;
+  }
+  select{
+    padding: 0.7rem 9rem 0.7rem 0.5rem;
+    margin: 1rem;
+    color: var(--textColor);
+    background-color: var(--bgColor);
+    border: 0.5px solid rgb(67, 65, 65);
+    /* resize: none; */
+    opacity: 0.7;
+   
+  }
+
+   /* Action BTN */
+   .actionBtn{
+    background-color: var(--themeBgColor);
+    color: #131313;
+    font-weight: 700;
+    padding:0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0rem 0.5rem 2rem 1rem;
+}
+.actionBtn:hover{
+    background-color: var(--bgColor);
+    border: var(--themeBgColor) 2px solid;
+    color:var(--textColor);
+}
+
+@media screen and (max-width: 980px){
+  .inputField{
+    margin: 0.7rem;
+   }
+   select{
+    margin: 0.5rem;
+   }
+   .inputFieldD{
+    margin: 0.7rem;
+   }
+  textarea {
+    resize: none;
+    width: 140px;
+  }
+  .actionBtn{
+    padding:0.8rem 3.5rem;
+  }
+}

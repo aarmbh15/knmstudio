@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  --bgColor:#131313;
+  --textColor:#ddd;
+  --themeBgColor:#e6bd08;
+  --titleColor:white;
+  --headingText:#ab7047;
+  --borderColor:#f8bf96;
+
+
+  /* Font Size */
+  --titleHead:4rem;
+  --titleText:0.9rem;
+  --paraText: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 90%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Poppins", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bgColor);
+  color: var(--textColor);
+
+}
+li  {
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--themeBgColor); 
+  border-radius: 2  0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--headingText); 
+}

@@ -1,0 +1,17 @@
+.container{
+    margin: 10vh 7rem;
+}
+.containerPhone{
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+       display: none;
+    }
+    .containerPhone{
+        margin-left: 1rem;
+        display: block;
+    }
+    
+}

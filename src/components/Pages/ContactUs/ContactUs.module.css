@@ -1,0 +1,140 @@
+.subContaierOne{
+    margin-top: -150px;
+    padding: 36vh 0 0 7vw ;
+    min-height: 90vh;
+    background-image: url('../../../img/bg-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,5);
+}
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.title{
+  position: absolute;
+color: var(--titleColor);
+position: absolute;
+font-size: 3rem;
+font-weight: 400;
+margin-top: 2px;
+letter-spacing: 2px;
+}
+.titleHead{
+  font-size: 3rem;
+  margin-top: -15px;
+  position: absolute;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 1200px;
+}
+.para{
+  margin-top: 140px;
+  font-size: var(--paraText);
+}
+
+.contactForm{
+  margin: -20vh 0 0 0;
+  padding: 2rem 3rem 0 0   ;
+  min-height: 80vh;
+  display: flex;
+}
+.contactFormOne{
+  width: 60%;
+  background-color: var(--bgColor);
+  padding-left: 12%;
+  padding-top: 15vh;
+}
+
+.contactFormOneHead{
+ font-size: 45px;
+ font-weight: 500;
+}
+.contactFormOneHeadSub{
+  position: absolute;
+  margin-top: -15px;
+}
+.contactFormOneSubHead{
+  margin: 50px 0 10px 0; 
+  font-size: 16px;
+  opacity: 0.7;
+}
+.contactFormSecond{
+  margin-top: 5%;
+  margin-left: -5%;
+  width: 25%;
+  background-color: var(--textColor);
+  color: var(--bgColor);
+}
+.contactInfo{
+  padding: 50% 0 50% 10%;
+  
+}
+.contactHead{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 2px;
+  letter-spacing: 1.5px;
+}
+.contactSubHead{
+  margin: 0 0 0 47px;
+  opacity: 0.9;
+}
+.contactMap{
+  opacity: 0.7;
+}
+@media screen and (max-width: 980px){
+  .subContaierOne{
+    margin-top: -100px;
+    padding: 15vh 0 0 2rem;
+  }
+  .title{
+    font-size: 3rem;
+      font-weight: 200;
+    line-height: 45px;
+  }
+  .titleHead{
+      font-weight: 500;
+      font-size: 3rem;
+      margin-top: 7px;
+      width:0px;
+  }
+  .contactFormOneHead{
+    letter-spacing: 1px;
+  }
+  .contactFormOneHeadSub{
+    margin-top: -10px;
+  }
+  .para{
+    margin-top: 430px;
+    font-size: var(--paraText);
+    width: 95%;
+}
+.contactForm{
+  margin: 0vh 0 0 0;
+  padding: 2rem 3rem 0 0   ;
+  min-height: 80vh;
+  flex-direction: column;
+
+}
+
+.contactFormSecond{
+  margin: 0 2rem;
+  /* margin-left: 0%; */
+  width:100%
+}.contactInfo{
+  padding: 20% 0 20% 10%;
+}
+.contactFormOne{
+  width: 100%;
+  padding-left: 12%;
+  padding-top: 15vh;
+}
+.contactFormOneForm{
+  margin-left: -5%;
+}
+}

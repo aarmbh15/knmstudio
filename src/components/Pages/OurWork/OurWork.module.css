@@ -1,0 +1,149 @@
+    .subContaierOne{
+        margin-top: -150px;
+        padding: 42vh 0 0 7vw ;
+        /* text-align: center; */
+        height: 70vh;
+        background-image: url('../../../img/bg-2.svg');
+        box-shadow: 100px 29px 120px 0px rgba(0,0,0,0.75);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: 0.3; */
+        background-color: rgba(0,0,0,0.5);
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .title{
+        position: absolute;
+        font-size: 3rem;
+        font-weight: 400;
+        margin-top: 2px;
+        letter-spacing: 2px;
+      }
+      .titleHead{
+          font-size: 3rem;
+          margin-top: -15px;
+          position: absolute;
+          font-weight: 700;
+          letter-spacing: 2px;
+          width: 800px;
+      
+      }
+
+    .subContaierSecond{
+        margin-top: -70px;
+        position: relative;
+        min-height: 90vh;
+        padding: 7rem;
+        background-image: url('../../../img/bg-dot.png');
+    }
+
+    .subTitle{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .subHead{
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        display: flex;
+        gap: 20px;
+    }
+    .subHeadAction{
+        cursor: pointer;
+
+    }
+    .subHeadActionACTIVE{
+        cursor: pointer;
+        color:var(--themeBgColor);
+        font-weight: bold;
+    }
+
+.Dis{
+    align-self: center;
+    gap: 59px;
+    justify-content: center;
+ display: grid;
+ grid-template-columns: auto auto auto;
+}
+.DisTwo{
+    margin-top: 0%;
+    align-self: center;
+   
+}
+
+
+.DisThree{
+    margin-top: 0%;
+    align-self: center;
+}
+@media screen and (max-width: 1400px){
+    .Dis{
+        grid-template-columns: auto auto;
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 912px){
+    .subContaierOne{
+        margin-top: -150px;
+        padding: 42vh 0 0 1.5vw ;
+        height: 70vh;
+    }
+    .overlay{
+        display: none;
+    }
+    
+    .title{
+        font-size: 3rem;
+        /* text-align: center; */
+        font-weight: 600;
+        margin: -10px 0 0 0px;
+        letter-spacing: 2px;
+        padding-left: 3REM;
+    }
+  .titleHead{
+        text-align: center;
+          font-size: 2.4rem;
+          margin-top: 25px;
+          font-weight: 400;
+          width: 80%;
+          /* padding-left: 3REM; */
+          line-height: 45px;
+      
+      }
+
+    .subContaierSecond{
+        margin-top: -70px;
+        position: relative;
+        min-height: 90vh;
+        padding: 7rem 0.5rem;
+        background-image: url('../../../img/bg-dot.png');
+    }
+
+    .subTitle{
+        font-size: 1.5rem;
+        margin-left: 10px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .subHead{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        gap:5px;
+        flex-direction: column;
+    }
+.Dis{
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+
+}

@@ -1,0 +1,260 @@
+.subContaierOne{
+    margin-top: -150px;
+    padding: 36vh 0 0 7vw ;
+    min-height:90vh;
+    background-image: url('../../../img/bg-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.3; */
+    background-color: rgba(0,0,0,0.5);
+}
+
+.title{
+    color: var(--titleColor);
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 2px;
+    letter-spacing: 2px;
+  }
+  .titleHead{
+      font-size: 3rem;
+      margin-top: -15px;
+      position: absolute;
+      font-weight: 700;
+      letter-spacing: 2px;
+  
+  }
+  .para{
+      margin-top: 60px;
+      font-size: var(--paraText);
+      width: 70%
+      ;
+  }
+/* Second Coantainer */
+.subContaierSecond{
+    margin: -10% 0 0 10%;
+    padding: 6rem 4rem 4rem 4rem;
+    /* height: 70vh; */
+    width: 70%;
+    background-color: #e4e4dd;
+    border-radius: 10px;
+
+    /* text */
+    text-align: center;
+    color: var(--bgColor);
+
+    /* box-shadow: rgb(252, 254, 255) 0px 20px 30px -10px; */
+}
+.subContaierSecondHead{
+    margin-top: -20px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height:40px;
+    /* Reduce Spacing */
+}
+.subContaierSecond p{
+   font-weight: 300;
+    font-size: 1.1rem;
+    padding: 0 2.5rem;
+    letter-spacing: 1px;
+    color: rgb(34, 33, 33);
+  
+}
+
+.subContaierThird{
+    margin: 7% 0% 0 0%;
+    padding: 6rem 9rem 4rem 9rem;
+    display: flex;
+    
+}
+.subContaierThirdCard{
+    margin: 1vh 0.5vw;
+    padding: 1.5rem 1rem;
+    flex: 1;
+    /* width: 100%; */
+    border: 0.5px solid rgb(38, 38, 38);
+}
+.subContaierThirdCardHead{
+    /* margin-top: 1em; */
+   
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    border-bottom:  0.5px solid rgb(38, 38, 38);
+    margin-bottom: 20px;
+        .mainHead{
+            position: absolute;
+            margin: 5px  0px 0 10px;
+        }
+    }           
+        .subContaierThirdCardPara{
+            /* font-size: 1.2rem; */
+            letter-spacing: 1px;   
+            padding: 0 1rem;   
+            /* opacity: 0.5;  */
+        }
+
+        .subContaierForth{
+            margin: 0 12rem;
+            padding: 1rem 2rem 2rem 2rem;
+            border: 0.5px solid rgb(38, 38, 38);
+            backdrop-filter: blur(2px);
+        } 
+       .subContaierForthCardContent{
+        display:flex;
+        /* padding: 0rem 3rem 0 7rem; */
+       } 
+       .subContaierForthCardPara{
+        flex: 2;
+        /* font-size: 1.2rem; */
+        letter-spacing: 2px;   
+        padding:2rem 2rem 0 2rem;   
+        /* opacity: 0.5;  */
+    }
+       .subContaierThirdCardImg{
+        flex:1;
+       }
+       .forthCardImg{
+        border-radius: 5px;
+       }
+
+   /* Home Slider */
+.subParameters{
+    margin-top: 21px;
+    display: none;
+}
+.subAboutParameters{
+    display: flex;
+    cursor: pointer;
+    padding: 1rem;
+}
+.aboutParameters{
+    border-bottom: 0.5px solid rgb(38, 38, 38);
+}
+
+.subAboutParametersHeading{
+font-size: 18px;
+margin: 5px 0 0 15px;
+}
+
+.subAboutParametersBtnIcon{
+ margin-left: 380px;
+}
+.subAboutParametersBtnIconAdv{
+    margin-left: 392px;
+}
+.aboutParametersPARA{
+    font-size: 90%;
+    margin: 5px 30px 20px 50px;
+    letter-spacing: 1px;
+    display: none;
+    transition: display 1s;
+    
+}
+.aboutParametersPARAActive{
+    display: block;
+}
+
+@media screen and (max-width: 912px){
+    .subContaierOne{
+        margin-top: -150px;
+        padding: 22vh 0 0 5vw ;
+        max-height: 50vh;
+    }
+    .overlay{
+       display: none;
+    }
+    .title{
+      font-size: 3rem;
+        font-weight: 200;
+      line-height: 45px;
+    }
+    .titleHead{
+        font-weight: 500;
+        font-size: 3rem;
+        margin-top: 7px;
+        width:0px;
+    }
+    .para{
+        margin-top: 280px;
+        font-size: var(--paraText);
+        width:95%;
+    }
+    /* Second Coantainer */
+    .subContaierSecond{
+        margin: 0% 0 0 2%;
+        padding: 3rem 0.5rem;
+        width: 91.5%;
+    }
+    .subContaierSecondHead{
+        margin-top: -20px;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height:35px;
+        /* Reduce Spacing */
+    }
+    .subContaierSecond p{
+       font-weight: 300;
+        font-size: 1.1rem;
+        padding: 0 0.4rem;
+        letter-spacing: 1.5px;
+    }
+
+    .subContaierThird{
+        flex-direction: column;
+        margin: 7% 0% 0 0%;
+        padding:1rem 0.5rem;
+    }
+    .subContaierForth{
+        padding:1rem 0.5rem;
+        margin: 0% 2% ;
+    }
+    .subContaierForthCardContent{
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .subContaierForthCardPara{
+        padding: 1rem 0rem;
+        letter-spacing: 1px;
+    }
+    .forthCardImg{
+        /* margin-left: 20px; */
+        width: 320px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .subContaierThird{
+        flex-direction: column;
+        margin: 7% 0% 0 0%;
+        padding:1rem 0.5rem;
+        display: none;
+    }
+    .subContaierSecondPHN{
+        margin: 4vh 0.7rem 2vh 0.7rem;
+    }
+   .subParameters{
+    display: block;
+  
+   }
+
+   .subAboutParameters{
+    padding: 1rem 0.5rem;
+  }
+  .subAboutParametersBtnIcon{
+    margin-left:40vw;
+   }
+   .subAboutParametersBtnIconAdv{
+    margin-left:40vw;
+   }
+   .aboutParametersPARA{
+    margin: 0px;
+    padding: 0.5rem;
+    font-size: 100%;
+    letter-spacing: 1.5px;
+   }
+
+
+}
+

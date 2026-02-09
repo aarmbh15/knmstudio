@@ -1,0 +1,41 @@
+        .container{
+            color: var(--textColor);
+            /* opacity: 0.7; */
+            position: fixed;
+            /* position: sticky; */
+            top: 49vh;
+            left: 42px;
+        }
+        .links{
+            justify-content: center;
+        }
+
+        .link {
+            color: var(--textColor);
+        padding: 7px 0;
+        }
+        .link a:hover{
+            opacity: 2;
+            color: var(--themeBgColor);
+        }
+        .line{
+            border-left: 3px solid var(--textColor);
+            opacity: 0.3;
+            height: 35px;
+            margin: 7px 0 14px 7px;
+        }
+        .lineText{
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            font-size:12px ;
+            font-weight: 700;
+            margin: 8px 1px;
+            opacity: 0.7;   
+            letter-spacing: 1.4px;   
+        }
+
+        @media screen and (max-width: 1124px){
+            .container{
+                display: none;
+            }
+        } 

@@ -1,0 +1,129 @@
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--textColor);
+        font-weight: 700;
+    }
+    header{
+        z-index: 1;
+        opacity: 1;
+        /* backdrop-filter: blur(2px); */
+        color:var(--textColor);
+        position: sticky;
+        top: 0;
+    }
+    .headerBg{
+        background-color:var(--bgColor);
+        opacity: 1;
+    }
+    .navbar{
+        /* width: 100%; */
+        height: 90px;
+        padding: 0.5rem 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .logo{
+            margin-left: -3vw;
+        }
+        /* Links */
+        .links{
+            display: flex;
+            gap: 2rem;
+            
+        }
+        .link Link{
+            forced-color-adjust: var(--textColor);
+        }
+
+        /* Action BTN */
+        .actionBtn{
+            background-color: var(--themeBgColor);
+            color: #131313;
+            font-weight: 700;
+            padding: 0.3rem 1rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .actionBtn:hover{
+            background-color: var(--bgColor);
+            border: var(--themeBgColor) 2px solid;
+            padding: 0.2rem 0.9rem;
+            color:var(--textColor);
+        }
+        /* Toggle Btn */
+        .toggleNav{
+            color: var(--themeBgColor);
+            display: none;
+        }
+        
+    /* Drop Down */
+    .dropDownInActive{
+        display: none;
+    }
+    .dropDownActive{
+        display: block;
+    }
+    .dropDown{
+        position: absolute;
+        right: 2rem;
+        top: 80px;
+        width: 40%;
+        background-color: var(--bgColor);
+        backdrop-filter:blur(25px);
+        color: var(--textColor);
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+
+        .link{
+            cursor: pointer;
+        }
+    }
+    .dropDown li{
+        padding: 0.6rem;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight:700;
+    }
+  
+
+    /* Responcive */
+    @media (max-width: 1054px){
+        .navbar{
+            padding: 0 3rem;
+        }
+        .links{
+            display: none;
+        }
+        .navbar .actionBtn{
+            display: none;
+        }
+        .toggleNav{
+            display: block;
+        }
+        .actionBtn{
+            font-size: 1.2rem;
+        }
+
+    }
+
+    @media (max-width: 480px){ 
+        .navbar{
+            padding: 0.5rem 1.5rem 0.5rem 2.5rem;
+        }
+        .logo img {
+            height: 70px;
+        }
+            .dropDown{
+                right: 0rem;
+                /* margin: 0 0rem; */
+                width: 100%;
+            }
+    }  

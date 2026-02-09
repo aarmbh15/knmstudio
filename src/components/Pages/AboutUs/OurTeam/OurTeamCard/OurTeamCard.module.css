@@ -1,0 +1,86 @@
+
+
+.member{  
+    margin: 0 0.5rem; 
+    flex: 1;
+    max-width: 320px;
+    /* height: 560px; */
+    overflow: hidden;
+    border: 0.5px solid rgb(38, 38, 38);
+    border-radius: 5px;
+}
+.memberImg img{
+    overflow: hidden;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    scale: 1;
+}
+.cardImg{
+    /* scale:1.2; */
+    transition: scale 0.6s;
+}
+.member:hover{
+
+    .cardImg{
+        scale: 1.15;
+    }
+    
+    /* .memberRole{
+        margin-top: -60px;
+    } */
+
+}
+.memberContent{
+    text-align: center;
+    margin-top: -70px;
+    padding: 1rem 0;
+    z-index: 1;
+    color: white;
+    backdrop-filter: blur(70px);
+    overflow: hidden;
+}
+.memberName{
+    margin-top: -7px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.memberRole{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.userSocialMedia{
+    margin-top:40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px){
+    .member{ 
+        /* height: 600px; */
+     }
+    .cardImg{
+        scale: 1.1;
+        /* margin-left: -30px; */
+    }
+    .memberContent{
+        backdrop-filter: blur(60px);
+    }
+    .memberName{
+        font-size: 1.8rem;
+    }
+    .userSocialMedia{
+        margin-top: 20px;
+    }
+    /* .member:hover{
+
+        .cardImg{
+            scale: 1.2;
+        }
+        .memberRole{
+            margin-top: 0px;
+        }
+    
+    } */
+}

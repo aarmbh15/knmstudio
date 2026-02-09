@@ -1,0 +1,47 @@
+.container{
+    padding: 1rem;
+    height: 450px;
+    width: 350px;
+    border: 0.5px solid rgb(38, 38, 38);
+}
+.imgDIVContainer{
+    margin: -5px 10px 30px 20px ;
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+/*NOT Woking */
+.container:hover{
+    .imgDIV{
+        scale: 1.2;
+    }
+}
+.tag{
+    opacity: 0.8;
+    font-size: 1rem;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.readBtn{
+    margin-top: 5px;
+    font-weight: 500;
+}
+@media screen and (max-width: 480px){
+    .container{
+        padding: 1rem 0.5rem;
+        height: 450px;
+        width: 340px;
+    }
+    .imgDIVContainer{
+        margin-left:1rem ;
+        width: 320px;
+        height: 300px;
+
+    }
+    .tag{
+        margin-top: 20PX;
+    }
+}

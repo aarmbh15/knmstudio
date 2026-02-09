@@ -1,0 +1,91 @@
+.mainContainer{
+    min-height: 110vh;
+    margin-top: -150px;
+    padding: 30vh 7vw;
+    background-image: url('../../img/bg-dot.png');
+    
+}
+.subTitle{
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    margin: 20px 0 0 10px;
+}
+.sub{
+    display: flex;
+}
+.title{
+    margin-top: -1rem;
+    letter-spacing: 2px;
+
+    font-size: .4rem;
+    font-weight: 200;
+}
+.divTitle{
+    letter-spacing: 2px;
+    margin-top: -1.5rem;
+    /* margin-left: 1.25rem; */
+    font-size: 2.5rem;
+    font-weight: 400;
+
+}
+.title{
+    margin-top: -55px;
+}
+.LandingContainer{
+    min-height: 90vh;
+}
+.queDiv{
+    margin: 20vh 0 -20vh 0;
+}
+/* .subTitle{
+    font-size: 1.2rem;
+    margin-bottom: -21px;
+    opacity: 0.7;
+} */
+.title{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* 
+@media screen and (max-width: 1012px){
+    .mainContainer{
+        padding: 30vh 0vw;
+    }
+}
+@media screen and (max-width: 840px){
+    .mainContainer{
+        padding: 30vh 3vw;
+    }
+}
+@media screen and (max-width: 640px){
+    .mainContainer{
+        padding: 30vh 1vw;
+    }
+} */
+
+@media screen and (max-width: 480px){
+    .mainContainer{
+        padding: 0vh 2%;
+        margin: 0vh 0vw;
+    }
+    .queDiv{
+        margin: 10vh 0 5vh 0;
+        padding: 1rem 0.2rem;
+    }
+    .brandContainer{
+        margin-top: 0rem;
+    }
+    .subContainer{
+        flex-direction: column;
+    }
+    .title{
+        margin-top: -2rem;
+        font-size: 1rem;
+    }
+    .divTitle{
+        margin-top: -0.9rem;
+        font-size: 1.5rem;    
+    }
+
+}  

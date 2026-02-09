@@ -1,0 +1,90 @@
+
+.blogHead{
+    min-height: 20vh;
+    padding: 7vh 3vw 4vh 7vw;
+    background-image: url('../../../../img/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.blogHeading{
+    font-size:3rem;
+    font-weight: 400;
+    color:white;
+    padding: 1vh 8vw;
+    
+}
+.blogHeadingAdv{
+    font-size:4rem;
+    font-weight: 400;
+    color:white;
+    padding-top: 10vh;
+    
+ 
+}
+.blogContent{
+    padding: 3vh 1vw;
+}
+.blogContentContainer{
+    margin: 10vh 18vw;
+}
+.blogContentHead{
+    font-size:1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+.blogContentPara{
+    opacity: 0.9;
+    letter-spacing: 0.7px;
+}
+.blogSubContent{
+    padding: 2vh 1vw ;
+}
+.blogSubContentHead{
+    font-size:1.2rem;
+    font-weight:400;
+    color: white;
+    margin: 5vh 0.5vw 1vh 0.5vw;
+}
+.blogSubContentHeadAdv{
+    font-size:1.2rem;
+    font-weight:400;
+    color: white;
+    margin: 2vh 0.5vw 1vh 0.5vw;
+}
+.blogImg{
+    text-align: center;
+    margin: 1rem 0;
+}
+.blogImgAdv{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.blogSubContentPara{
+    margin:0vh 2vw;
+    opacity: 0.9;
+    letter-spacing: 0.7px;
+}
+
+
+
+.blogContentConclution{
+    margin-top: 5vh;
+    font-size:1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+    .blogHeading{
+        font-size: 2rem;
+    }
+    .blogHeadingAdv{
+        font-size: 3rem;
+    }
+    .blogContentContainer{
+        margin: 10vh 3vw;
+    }
+}
