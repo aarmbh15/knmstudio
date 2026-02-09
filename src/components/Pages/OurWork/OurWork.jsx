@@ -55,196 +55,246 @@ const OurWork = () =>{
 
     const OurWorkDATAOne =[
         {
-                src:ABM,
-                Vtype:"ECommerce",
-                title:"ACTIMAX BRAND MASTER"
-        },
-        {
-            src:PLO,
-            Vtype:"Corporate_Videos",
-            title:"Plastic Omnium"
-        },
-        {
-            src:LOR,
-            Vtype:"Advertisement",
-            title:"Loreal Paris Rouge Signature"
-        },
-        {
-                src:X90,
-                Vtype:"Advertisement",
-                title:"Vivo X90 Series"
-        },
-        {
-            src:O8S,
-            Vtype:"Advertisement",
-            title:"One8 FUTURE"
-        },
-        {
-            src:CBH,
-            Vtype:"Advertisement",
-            title:"Chota Don VIPS Wallet"
-        },
-        
-        {
-                src:AMC,
-                Vtype:"ECommerce",
-                title:"Aegte- Mens DD Cream"
-        },
-        {
-            src:BHU,
+            src:ABM,
             Vtype:"ECommerce",
-            title:"Bhumiya-Shrikhand"
+            title:"Vivo X300"
         },
         {
-            src:VFT,
-            Vtype:"Advertisement",
-            title:"VIPS Finstock- Fortune Teller"
-        },
-        {
-                src:SPA,
-                Vtype:"Informative Videos",
-                title:"Spardha School of Music 10000+"
-        },
-        {
-            src:AMD,
-            Vtype:"Corporate_Videos",
-            title:"Amdocs"
-        },
-        {
-            src:NP,
-            Vtype:"Advertisement",
-            title:"Vivo V23 with Neha Pendse"
-        },
-        {
-            src:VDI,
-            Vtype:"Advertisement",
-            title:"VIPS Finstock- Diwali"
-        },
-        
-        {
-                src:VIP,
-                Vtype:"Advertisement",
-                title:"VIPS Wallet Tapri"
-        },
-        {
-            src:SPI,
-            Vtype:"Corporate_Videos",
-            title:"Vivo Travel with Arnab Satara"
-        },
-        {
-            src:OAM,
-            Vtype:"Advertisement",
-            title:"One8 Attitude"
-        },
-        {
-                src:VFS,
-                Vtype:"Advertisement",
-                title:"VIPS - Right Time to Invest"
-        },
-        {
-            src:ASP,
+            src:ABM,
             Vtype:"ECommerce",
-            title:"ACTIMAX Style With Pants"
+            title:"Vivo V60"
         },
         {
-            src:V25,
-            Vtype:"Corporate_Videos",
-            title:"Vivo V25"
-        },
-        
-        {
-                src:ALK,
-                Vtype:"Corporate_Videos",
-                title:"Alkegen"
-        },
-        {
-            src:LIVA,
-            Vtype:"Advertisement",
-            title:"LIVA"
-        },
-        {
-            src:AEL,
+            src:ABM,
             Vtype:"ECommerce",
-            title:"Aegte- Lip Balm"
+            title:"OPmobilty (Manufacturing)"
         },
         {
-                src:GHR,
-                Vtype:"Events",
-                title:"Godrej Hr Event"
-        },
-        {
-            src:COL,
-            Vtype:"Corporate_Videos",
-            title:"Cologne Spa"
-        },
-        {
-            src:AMB,
+            src:ABM,
             Vtype:"ECommerce",
-            title:"Aegte- Beard Growth Serum"
+            title:"ARaymond"
         },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Padcare"
+        },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Godrej Grenns"
+        },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Godrej Quality wheel"
+        },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Dryfruits"
+        },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Kensha"
+        },
+        {
+            src:ABM,
+            Vtype:"ECommerce",
+            title:"Godrej success Typography"
+        },
+        // {
+        //         src:ABM,
+        //         Vtype:"ECommerce",
+        //         title:"ACTIMAX BRAND MASTER"
+        // },
+        // {
+        //     src:PLO,
+        //     Vtype:"Corporate_Videos",
+        //     title:"Plastic Omnium"
+        // },
+        // {
+        //     src:LOR,
+        //     Vtype:"Advertisement",
+        //     title:"Loreal Paris Rouge Signature"
+        // },
+        // {
+        //         src:X90,
+        //         Vtype:"Advertisement",
+        //         title:"Vivo X90 Series"
+        // },
+        // {
+        //     src:O8S,
+        //     Vtype:"Advertisement",
+        //     title:"One8 FUTURE"
+        // },
+        // {
+        //     src:CBH,
+        //     Vtype:"Advertisement",
+        //     title:"Chota Don VIPS Wallet"
+        // },
+        
+        // {
+        //         src:AMC,
+        //         Vtype:"ECommerce",
+        //         title:"Aegte- Mens DD Cream"
+        // },
+        // {
+        //     src:BHU,
+        //     Vtype:"ECommerce",
+        //     title:"Bhumiya-Shrikhand"
+        // },
+        // {
+        //     src:VFT,
+        //     Vtype:"Advertisement",
+        //     title:"VIPS Finstock- Fortune Teller"
+        // },
+        // {
+        //         src:SPA,
+        //         Vtype:"Informative Videos",
+        //         title:"Spardha School of Music 10000+"
+        // },
+        // {
+        //     src:AMD,
+        //     Vtype:"Corporate_Videos",
+        //     title:"Amdocs"
+        // },
+        // {
+        //     src:NP,
+        //     Vtype:"Advertisement",
+        //     title:"Vivo V23 with Neha Pendse"
+        // },
+        // {
+        //     src:VDI,
+        //     Vtype:"Advertisement",
+        //     title:"VIPS Finstock- Diwali"
+        // },
+        
+        // {
+        //         src:VIP,
+        //         Vtype:"Advertisement",
+        //         title:"VIPS Wallet Tapri"
+        // },
+        // {
+        //     src:SPI,
+        //     Vtype:"Corporate_Videos",
+        //     title:"Vivo Travel with Arnab Satara"
+        // },
+        // {
+        //     src:OAM,
+        //     Vtype:"Advertisement",
+        //     title:"One8 Attitude"
+        // },
+        // {
+        //         src:VFS,
+        //         Vtype:"Advertisement",
+        //         title:"VIPS - Right Time to Invest"
+        // },
+        // {
+        //     src:ASP,
+        //     Vtype:"ECommerce",
+        //     title:"ACTIMAX Style With Pants"
+        // },
+        // {
+        //     src:V25,
+        //     Vtype:"Corporate_Videos",
+        //     title:"Vivo V25"
+        // },
+        
+        // {
+        //         src:ALK,
+        //         Vtype:"Corporate_Videos",
+        //         title:"Alkegen"
+        // },
+        // {
+        //     src:LIVA,
+        //     Vtype:"Advertisement",
+        //     title:"LIVA"
+        // },
+        // {
+        //     src:AEL,
+        //     Vtype:"ECommerce",
+        //     title:"Aegte- Lip Balm"
+        // },
+        // {
+        //         src:GHR,
+        //         Vtype:"Events",
+        //         title:"Godrej Hr Event"
+        // },
+        // {
+        //     src:COL,
+        //     Vtype:"Corporate_Videos",
+        //     title:"Cologne Spa"
+        // },
+        // {
+        //     src:AMB,
+        //     Vtype:"ECommerce",
+        //     title:"Aegte- Beard Growth Serum"
+        // },
         
         
-        {
-                src:MCA,
-                Vtype:"Events",
-                title:"MCEA Award Night"
-        },
-        {
-            src:VCN,
-            Vtype:"Events",
-            title:"Vivo Champions Night"
-        },
-        {
-            src:DEV,
-            Vtype:"Events",
-            title:"Devfest 2022 GDG"
-        },
-        {
-                src:COM,
-                Vtype:"Advertisement",
-                title:"Coffee Machine Demo"
-        },
-        {
-            src:APA,
-            Vtype:"ECommerce",
-            title:"ACTIMAX Pants MASTER"
-        },
-        {
-            src:PBCL,
-            Vtype:"Events",
-            title:"PBCL"
-        },
+        // {
+        //         src:MCA,
+        //         Vtype:"Events",
+        //         title:"MCEA Award Night"
+        // },
+        // {
+        //     src:VCN,
+        //     Vtype:"Events",
+        //     title:"Vivo Champions Night"
+        // },
+        // {
+        //     src:DEV,
+        //     Vtype:"Events",
+        //     title:"Devfest 2022 GDG"
+        // },
+        // {
+        //         src:COM,
+        //         Vtype:"Advertisement",
+        //         title:"Coffee Machine Demo"
+        // },
+        // {
+        //     src:APA,
+        //     Vtype:"ECommerce",
+        //     title:"ACTIMAX Pants MASTER"
+        // },
+        // {
+        //     src:PBCL,
+        //     Vtype:"Events",
+        //     title:"PBCL"
+        // },
         
-        {
-                src:BBE,
-                Vtype:"Corporate_Videos",
-                title:"Bharat Benz 100+ Bus Delivery"
-        },
-        {
-            src:V29,
-            Vtype:"Advertisement",
-            title:"Vivo V29e"
-        },
-        {
-            src:KUM,
-            Vtype:"ECommerce",
-            title:"The Indie Earth"
-        },
-        {
-                src:FSB,
-                Vtype:"ECommerce",
-                title:"FreeStyle - Sports Bra"
-        },
-        {
-            src:OOB,
-            Vtype:"Advertisement",
-            title:"One8-ONE BEAT ONE RULE"
-        },
-        {
-            src:SHA,
-            Vtype:"Informative Videos",
-            title:"Spardha School of Music"
-        },
+        // {
+        //         src:BBE,
+        //         Vtype:"Corporate_Videos",
+        //         title:"Bharat Benz 100+ Bus Delivery"
+        // },
+        // {
+        //     src:V29,
+        //     Vtype:"Advertisement",
+        //     title:"Vivo V29e"
+        // },
+        // {
+        //     src:KUM,
+        //     Vtype:"ECommerce",
+        //     title:"The Indie Earth"
+        // },
+        // {
+        //         src:FSB,
+        //         Vtype:"ECommerce",
+        //         title:"FreeStyle - Sports Bra"
+        // },
+        // {
+        //     src:OOB,
+        //     Vtype:"Advertisement",
+        //     title:"One8-ONE BEAT ONE RULE"
+        // },
+        // {
+        //     src:SHA,
+        //     Vtype:"Informative Videos",
+        //     title:"Spardha School of Music"
+        // },
         
         
     ]
