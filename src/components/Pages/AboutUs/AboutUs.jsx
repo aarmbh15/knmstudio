@@ -10,7 +10,7 @@ import { TbBinaryTree } from "react-icons/tb";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 import OurTeam from "./OurTeam/OurTeam";
-import Sparsh from "../../../img/OurTeam/SHA02697.jpg";
+import Sparsh from "../../../img/OurTeam/sparsh.jpeg";
 const ABOUT = () =>{
     const [sliderToggle , setSliderToggle] =useState(0);
 
