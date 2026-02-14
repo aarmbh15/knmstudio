@@ -1,37 +1,36 @@
-import React  from "react";
-import style from'./HomeVideoSlider.module.css';
-import HomeVideoSliderCard from "./HomeVideoSliderCard/HomeVideoSliderCard";
-import HomeVideoSliderOps from "./HomeVideoSliderOps/HomeVideoSliderOps";
+// HomeVideoSlider.jsx     ← better rename to HomeHeroVideo.jsx later
+import React from "react";
+import styles from "./HomeVideoSlider.module.css";
 
+// Import your video (Vite handles this → creates correct public URL)
+import heroVideo from "../../../../video/KNM_Portfolio_1080P[Mute].mp4";
 
+const HomeHeroVideo = () => {
+  return (
+    <div className={styles.hero}>
+      <video
+        className={styles.videoBackground}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+      >
+        <source src={heroVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-// import One8 from '../../../../video/One8.mp4'
-// import One8 from '../../../../video/ACTIMAX - BRAND MASTER.mp4'
+      {/* Semi-transparent overlay + content */}
+      <div className={styles.overlay}>
+        <div className={styles.content}>
+          <h1>KNM Studio</h1>
+          <p>Creative Video Production • Motion Design • Storytelling</p>
+          {/* Add CTA buttons, logo animation, etc. here */}
+          <button className={styles.cta}>View Our Work</button>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// import One8 from '../../../../video/One8.mp4'
-// import Actimax from '../../../../video/ACTIMAX - BRAND MASTER.mp4'
-// import Devfest from '../../../../video/Devfest 2022 with KNM studio.mp4'
-// import MCFA from '../../../../video/MCEA Event Teaser.mp4'
-// import Tapri from '../../../../video/Payment At Tapri_VIPS Wallet.mp4'
-
-
-const HomeVideoSlider = () =>{
-     
-    return(
-        <>
-             <div className={style.container} >
-                    <div className={style.isActive}>
-                        <HomeVideoSliderCard />
-                    </div>
-             </div>
-             {/* <div className={style.slider}>
-                     <HomeVideoSliderOps source={Actimax} />
-                     <HomeVideoSliderOps source={Tapri} />
-             </div> */}
-               
-         
-
-        </>
-    );
-}
-export default HomeVideoSlider;
+export default HomeHeroVideo;

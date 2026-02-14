@@ -25,8 +25,8 @@ const HomeService =() =>{
                  <h3 className={style.title} >LET’S CHECK OUR SERVICES</h3>
                 <div className={style.serviceCard}>
                     <ServiceCard  className={style.Card}
-                         icon={<img src={BrandIMG} alt="BRAND DEVELOPMENT" width={150} />}     
-                         ServiceTitle="BRAND DEVELOPMENT
+                         icon={<img src={BrandIMG} alt="digital marketing" width={150} />}     
+                         ServiceTitle="DIGITAL MARKETING
                          " 
                          ServicePara="Trust us for crafting resonant brand identities through research, creative storytelling, and authentic narratives, setting you apart in India."
                     />

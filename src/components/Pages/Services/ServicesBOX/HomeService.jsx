@@ -17,7 +17,7 @@ const HomeService =() =>{
                  <h3 className={style.title} data-aos="zoom-in-up">OUR SERVICES</h3>
                 <div className={style.serviceCard}>
                     <ServiceCard  className={style.Card}
-                         ServiceTitle="BRAND DEVELOPMENT
+                         ServiceTitle="DIGITAL MARKETING
                          " 
                          ServicePara="Trust us for crafting resonant brand identities through research, creative storytelling, and authentic narratives, setting you apart in India."
                     />

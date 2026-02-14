@@ -51,7 +51,7 @@ const ContactForm = () =>{
 
                        <select name="languages" id="lang">
                        <option value="" disabled selected hidden>Please Choose Service</option>
-                         <option value="Brand Development">Brand Development</option>
+                         <option value="digital marketing">Digital Marketing</option>
                          <option value="Advertisement">Advertisement</option>
                          <option value="E-Commerce">E-Commerce</option>
                          <option value="Corporate Videos">Corporate Videos</option>

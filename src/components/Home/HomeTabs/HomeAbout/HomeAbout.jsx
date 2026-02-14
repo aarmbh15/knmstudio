@@ -109,7 +109,7 @@ const HomeAbout = () => {
                                     </div>
                                     <div className={sliderToggle === 3 ? `${style.aboutParametersPARA} ${style.aboutParametersPARAActive}` : `${style.aboutParametersPARA}`}>
                                         Empowering businesses through captivating ads, commercial video production, corporate videos, 
-                                        event coverage, brand development, and e-commerce solutions.
+                                        event coverage, digital marketing, and e-commerce solutions.
                                     </div>  
                                 </div>
                             </div>
