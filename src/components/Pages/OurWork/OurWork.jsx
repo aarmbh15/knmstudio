@@ -17,7 +17,12 @@ import LipBalm from '../../../video/Lip Balm Female.mp4';
 import MCEA from '../../../video/MCEA Event Teaser.mp4';
 
 // Thumbnail Imports
-import ABM from '../../../img/OurWorkThumnail/ABM.png';
+import ABM from '../../../img/OurWorkThumnail/Kensha.jpg';
+import Greenfront from '../../../img/OurWorkThumnail/Greenfront.jpg';
+// import ABM from '../../../img/OurWorkThumnail/Kensha.jpg';
+// import ABM from '../../../img/OurWorkThumnail/Kensha.jpg';
+// import ABM from '../../../img/OurWorkThumnail/Kensha.jpg';
+// import ABM from '../../../img/OurWorkThumnail/Kensha.jpg';
 // ... (Keep all your other thumbnail imports here)
 
 const OurWork = () => {
@@ -58,7 +63,7 @@ const OurWork = () => {
         { src: ABM, Vtype: "ECommerce", title: "Godrej Quality wheel" },
         { src: ABM, Vtype: "ECommerce", title: "Dryfruits" },
         { src: ABM, Vtype: "ECommerce", title: "Kensha" },
-        { src: ABM, Vtype: "ECommerce", title: "Godrej Typography" }
+        { src: Greenfront, Vtype: "ECommerce", title: "Godrej Typography" }
     ];
 
     return (
