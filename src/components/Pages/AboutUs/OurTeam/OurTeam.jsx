@@ -43,43 +43,43 @@ const OurTeam =() =>{
         {
             key:4,
             src:Nikhil,
-            name:"Nikhil Inamke",
-            role:"Corporate Head",
+            name:"Sundanshu Sharma",
+            role:"Operation Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
             key:5,
             src:Sarah,
-            name:"Sarah",
-            role:"Graphic Design",
+            name:"Vinod Rathod",
+            role:"Lead video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
             key:6,
             src:Ashiwajbe,
-            name:"Ashwajit Gajbe",
-            role:"Video Editor",
+            name:"Sanjana Patankar",
+            role:"video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
             key:7,
             src:AlanaritiAhuja,
-            name:"Alankriti Ahuja",
-            role:" Social Media Manager",
+            name:"Mansi Gaurkar",
+            role:"Growth Marketing Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
-        {
-            key:8,
-            src:DeepakBhalerao,
-            name:"Deepak Bhalerao",
-            role:"Video Editor",
-            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
-            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
-        },
+        // {
+        //     key:8,
+        //     src:DeepakBhalerao,
+        //     name:"Deepak Bhalerao",
+        //     role:"Video Editor",
+        //     instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+        //     linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        // },
         {
             key:9,
             src:YashAgrawal,

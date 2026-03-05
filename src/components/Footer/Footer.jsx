@@ -19,7 +19,7 @@ const FOOTER = () =>{
                     </div>
                     <div className={style.address}>
                         <h3 className={style.footerHeading}>Head Office </h3>
-                   <span className={style.footerHeadingSub}> PERIWINKLE SOCIETY, Yogi Park,Bunglow 6,<br />Baner, Pune, India <br />411069</span>
+                   <span className={style.footerHeadingSub}>Bunglow 6, PERIWINKLE SOCIETY, Yogi Park,<br />Baner, Pune, India <br />411069</span>
                     </div>
                     </div>
                 </div>

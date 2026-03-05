@@ -78,20 +78,24 @@ const HomeVideoSliderCard = (props ) =>{
     return(
         <>  
          <div className={style.SliderContainer} >
-   <Slider {...settings}  > 
-        {VideoData.map((el) =>(
-            <div className={style.containerHome} >
-            <video src={`${el.src}`} autoPlay muted loop/>
-               <div className={style.content}  data-aos="fade-up" >
-               <div className={style.title}>
-                        <div>{el.title}</div>
-                    </div>
-                    <div className={style.subTitle}>{el.subTitle}</div>
-                    <div className={style.para}>{el.discription}</div>
-               </div>
-            </div>
-          )) } 
-    </Slider>   
+<Slider {...settings}>
+  {VideoData.map((el) => (
+    <div key={el.key} className={style.containerHome}>
+      <video 
+        src={el.src} 
+        autoPlay 
+        muted 
+        loop 
+        playsInline /* Crucial for iOS autoplay */
+      />
+      <div className={style.content} data-aos="fade-up">
+        <div className={style.subTitle}>{el.subTitle}</div>
+        <div className={style.title}>{el.title}</div>
+        <div className={style.para}>{el.discription}</div>
+      </div>
+    </div>
+  ))}
+</Slider>  
     </div> 
         </>
     );
