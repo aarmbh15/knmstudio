@@ -1,129 +1,154 @@
-.mainContainer {
-    width: 100%;
-    overflow-x: hidden;
+.mainContainer{
+width:100%;
+overflow-x:hidden;
 }
 
-/* Video Slider Styles */
-.heroSliderSection {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background: #000;
-    margin-top: -100px; /* Adjust based on your Navbar height */
+/* HERO SECTION */
+
+.heroSliderSection{
+height:100vh;
+width:100%;
+position:relative;
+background:#000;
+margin-top:-100px;
 }
 
-.slideWrapper {
-    position: relative;
-    height: 100vh;
-    width: 100%;
+.slideWrapper{
+position:relative;
+height:100vh;
+width:100%;
 }
 
-.bgVideo {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    opacity: 0.6;
+.bgVideo{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+opacity:0.7;
 }
 
-.videoOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    display: flex;
-    align-items: center;
-    padding-left: 7rem;
+.videoOverlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.35);
+display:flex;
+align-items:center;
+padding-left:7rem;
 }
 
-.headerTextContent {
-    color: white;
-    max-width: 600px;
+.headerTextContent{
+color:white;
+max-width:600px;
 }
 
-.workTag {
-    font-size: 1.2rem;
-    letter-spacing: 4px;
-    color: var(--themeBgColor, #ff0000);
-    font-weight: 700;
+.workTag{
+font-size:1.2rem;
+letter-spacing:4px;
+color:#ff0000;
+font-weight:700;
 }
 
-.mainVideoTitle {
-    font-size: 5rem;
-    font-weight: 800;
-    margin: 10px 0;
-    text-transform: uppercase;
+.mainVideoTitle{
+font-size:5rem;
+font-weight:800;
+margin:10px 0;
+text-transform:uppercase;
 }
 
-.videoSub {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    font-weight: 500;
+.videoSub{
+font-size:1.2rem;
+font-weight:500;
 }
 
-.videoDesc {
-    font-size: 1rem;
-    line-height: 1.6;
-    opacity: 0.9;
+
+/* GALLERY SECTION */
+
+.subContaierSecond{
+min-height:90vh;
+padding:5rem 7rem;
+background:#000;
 }
 
-/* Gallery Section Styles */
-.subContaierSecond {
-    position: relative;
-    min-height: 90vh;
-    padding: 5rem 7rem;
-    background-image: url('../../../img/bg-dot.png');
-    background-color: #000;
+.subTitle{
+font-size:1.8rem;
+font-weight:700;
+color:white;
+margin-bottom:20px;
 }
 
-.subTitle {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 20px;
+.subHead{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+margin-bottom:40px;
 }
 
-.subHead {
-    margin-bottom: 40px;
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
+.subHeadAction{
+cursor:pointer;
+color:#888;
+text-transform:uppercase;
 }
 
-.subHeadAction {
-    cursor: pointer;
-    font-weight: 500;
-    color: #888;
-    transition: 0.3s;
-    text-transform: uppercase;
+.subHeadActionACTIVE{
+color:#fff;
+border-bottom:2px solid red;
 }
 
-.subHeadActionACTIVE {
-    cursor: pointer;
-    color: var(--themeBgColor, #fff);
-    font-weight: bold;
-    border-bottom: 2px solid var(--themeBgColor);
+.Dis{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+justify-items:center;
 }
 
-.Dis {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
-    justify-items: center;
+
+/* TABLET */
+
+@media screen and (max-width:1000px){
+
+.videoOverlay{
+padding-left:3rem;
 }
 
-/* Responsive */
-@media screen and (max-width: 1012px) {
-    .videoOverlay { padding-left: 3rem; }
-    .mainVideoTitle { font-size: 3.5rem; }
+.mainVideoTitle{
+font-size:3rem;
 }
 
-@media screen and (max-width: 768px) {
-    .heroSliderSection { height: 70vh; }
-    .bgVideo { height: 70vh; }
-    .slideWrapper { height: 70vh; }
-    .mainVideoTitle { font-size: 2.5rem; }
-    .subContaierSecond { padding: 3rem 1.5rem; }
-    .subHead { flex-direction: column; gap: 10px; }
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width:768px){
+
+.heroSliderSection{
+height:70vh;
+}
+
+.slideWrapper{
+height:70vh;
+}
+
+.mainVideoTitle{
+font-size:2rem;
+}
+
+.subContaierSecond{
+padding:3rem 1.5rem;
+}
+
+.subHead{
+flex-direction:column;
+gap:10px;
+}
+
+.Dis{
+grid-template-columns:1fr;
+}
+
 }
