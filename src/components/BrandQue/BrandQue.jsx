@@ -21,7 +21,6 @@ import L18 from "../../img/KNMClientLOGO/18.png";
 import L19 from "../../img/KNMClientLOGO/19.png";
 import L20 from "../../img/KNMClientLOGO/20.png";
 import L21 from "../../img/KNMClientLOGO/21.png";
-
 import L22 from "../../img/KNMClientLOGO/22.png";
 import L23 from "../../img/KNMClientLOGO/23.png";
 import L24 from "../../img/KNMClientLOGO/24.png";
@@ -45,44 +44,45 @@ import L41 from "../../img/KNMClientLOGO/41.png";
 import L42 from "../../img/KNMClientLOGO/42.png";
 
 const BRAND_QUE = () => {
+  const row1 = [L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14];
+  const row2 = [L15, L16, L17, L18, L19, L20, L21, L22, L23, L24, L25, L26, L27, L28];
+  const row3 = [L29, L30, L31, L32, L33, L34, L35, L36, L37, L38, L39, L40, L41, L42];
 
-const row1 = [
-L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,
-L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21
-];
+  return (
+    <div className={style.container}>
 
-const row2 = [
-L22,L23,L24,L25,L26,L27,L28,L29,L30,L31,
-L32,L33,L34,L35,L36,L37,L38,L39,L40,L41,L42
-];
+      <div className={style.marquee}>
+        <div className={style.track}>
+          {[...row1, ...row1].map((logo, index) => (
+            <div className={style.card} key={`r1-${index}`}>
+              <img src={logo} alt="client" />
+            </div>
+          ))}
+        </div>
+      </div>
 
-return(
-<div className={style.container}>
+      <div className={style.marqueeReverse}>
+        <div className={style.track}>
+          {[...row2, ...row2].map((logo, index) => (
+            <div className={style.card} key={`r2-${index}`}>
+              <img src={logo} alt="client" />
+            </div>
+          ))}
+        </div>
+      </div>
 
-{/* Row 1 */}
-<div className={style.marquee}>
-<div className={style.track}>
+      <div className={style.marquee}>
+        <div className={style.track}>
+          {[...row3, ...row3].map((logo, index) => (
+            <div className={style.card} key={`r3-${index}`}>
+              <img src={logo} alt="client" />
+            </div>
+          ))}
+        </div>
+      </div>
 
-{[...row1,...row1].map((logo,index)=>(
-<img key={index} src={logo} alt="brand"/>
-))}
-
-</div>
-</div>
-
-{/* Row 2 */}
-<div className={style.marqueeReverse}>
-<div className={style.track}>
-
-{[...row2,...row2].map((logo,index)=>(
-<img key={index} src={logo} alt="brand"/>
-))}
-
-</div>
-</div>
-
-</div>
-)
-}
+    </div>
+  );
+};
 
 export default BRAND_QUE;

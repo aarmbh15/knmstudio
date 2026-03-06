@@ -1,85 +1,86 @@
-.container{
-width:100%;
-overflow:hidden;
-padding:2rem 0;
-display:flex;
-flex-direction:column;
-gap:0;
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: transparent;
 }
 
-/* ROW CONTAINER */
-
-.marquee{
-overflow:hidden;
-white-space:nowrap;
+.marquee,
+.marqueeReverse {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
 }
 
-.marqueeReverse{
-overflow:hidden;
-white-space:nowrap;
-margin-top:-25px; /* moves second row closer to first */
+.track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: max-content;
 }
 
-/* TRACK */
-
-.track{
-display:flex;
-align-items:center;
-gap:80px;
-animation: scrollLeft 15s linear infinite;
+.marquee .track {
+  animation: scrollLeft 50s linear infinite;
 }
 
-.marqueeReverse .track{
-animation: scrollRight 15s linear infinite;
+.marqueeReverse .track {
+  animation: scrollRight 50s linear infinite;
 }
 
-/* LOGOS */
-
-.track img{
-height:300px;
-object-fit:contain;
-filter: drop-shadow(0px 6px 10px rgba(0,0,0,0.45));
-transition: transform 0.1s ease;
+/* SMALLER CARD */
+.card {
+  background: #ffffff;
+  width: 200px;   /* reduced */
+  height: 110px;  /* reduced */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 6px; /* reduced padding so logo grows */
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
 }
 
-.track img:hover{
-transform:scale(1.12);
+.card:hover {
+  transform: scale(1.08);
+  z-index: 10;
+}
+
+/* LARGER LOGO */
+.card img {
+  width: 170px;
+  height: 200px;
+  object-fit: contain;
 }
 
 /* ANIMATIONS */
 
-@keyframes scrollLeft{
-0%{
-transform:translateX(0);
-}
-100%{
-transform:translateX(-50%);
-}
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
-@keyframes scrollRight{
-0%{
-transform:translateX(-50%);
-}
-100%{
-transform:translateX(0);
-}
+@keyframes scrollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 /* MOBILE */
 
-@media(max-width:480px){
+@media (max-width:480px) {
 
-.track{
-gap:40px;
-}
+  .card {
+    width: 140px;
+    height: 80px;
+    padding: 5px;
+  }
 
-.track img{
-height:150px;
-}
-
-.marqueeReverse{
-margin-top:-15px;
-}
+  .track {
+    gap: 12px;
+  }
 
 }
