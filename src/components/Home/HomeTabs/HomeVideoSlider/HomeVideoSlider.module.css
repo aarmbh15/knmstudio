@@ -1,55 +1,65 @@
-.container {
-    min-height: 100vh;
-    /* Changed max-width to a percentage less than 100 to see the 'middle' effect */
-    width: 90%; 
-    max-width: 1200px; 
-    
-    /* Centering: Top is -150px, Sides are Auto, Bottom is 0 */
-    margin: -150px auto 0 auto; 
-    margin-top: 10px;
-    
-    border: 2px solid transparent;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    position: relative;
-    overflow: hidden; /* Keeps video/content within the rounded or shadowed box */
+/* Prevent horizontal scroll globally */
+
+.heroSliderSection{
+width:100%;
+max-width:100vw;
+height:100vh;
+position:relative;
+overflow:hidden;
+background:#000;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /* Changed from 110% to 100% to match container exactly */
-    background-color: rgba(0, 0, 0, 0.3);
+/* wrapper */
+
+.slideWrapper{
+width:100%;
+max-width:100vw;
+height:100%;
+position:relative;
+overflow:hidden;
 }
 
-.slider {
-    /* For better centering on mobile, we use a more flexible margin or flexbox */
-    margin: -29vh auto 0 auto; 
-    display: flex;
-    justify-content: center; /* Centers items inside the slider */
-    gap: 2.1rem;
+/* video */
+
+.bgVideo{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+opacity:0.75;
 }
 
-/* --- Responsive Adjustments --- */
+/* overlay */
 
-@media (max-width: 1286px) {
-    .container {
-        width: 92vw;
-        margin: -100px auto 0 auto; /* Reduced top offset for smaller screens */
-    }
+.videoOverlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.35);
+pointer-events:none;
 }
 
-@media (max-width: 1012px) {
-    .container {
-        width: 95vw;
-        margin: -80px auto 0 auto; /* Adjusting for mobile header heights */
-    }
-    
-    .slider {
-        margin: 20px auto; 
-        margin-top: 100px;/* Brings slider back into view on small screens */
-        flex-direction: column; /* Optional: stacks items on mobile */
-        align-items: center;
-    }
+
+/* ---------------- MOBILE FIX ---------------- */
+
+@media screen and (max-width:768px){
+
+.heroSliderSection{
+height:70vh;
+}
+
+}
+
+/* very small phones */
+
+@media screen and (max-width:480px){
+
+.heroSliderSection{
+height:60vh;
+}
+
 }

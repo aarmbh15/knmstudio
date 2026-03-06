@@ -8,30 +8,16 @@ import { FaCircle } from "react-icons/fa";
 
 
 import OurTeamCard from "./OurTeamCard/OurTeamCard";
-import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
+// import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
 import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
-import Nikhil from "../../../../img/OurTeam/SHA02808.jpg";
-import  Sarah from "../../../../img/OurTeam/SHA02599.jpg";
-// Grafic Des
-import Ashiwajbe from "../../../../img/OurTeam/SHA02623.jpg";
-// Video Editor
-import AlanaritiAhuja  from "../../../../img/OurTeam/SHA02648.jpg";
-// Social; Media Manager
-import DeepakBhalerao from "../../../../img/OurTeam/SHA02724.jpg";
-// Video Editor
 import YashAgrawal  from "../../../../img/OurTeam/SHA02760.jpg";
-// Cinamatographer
+import Sanjana  from "../../../../img/OurTeam/Sanjana.jpeg";
+import sudanshu  from "../../../../img/OurTeam/sudanshu.jpeg";
+import vinod  from "../../../../img/OurTeam/vinod.jpeg";
+// import Mansi  from "../../../../img/OurTeam/mansi.jpg";
 
 const OurTeam =() =>{
     const ourTeamData = [
-        // {
-        //     key:2,
-        //     src:Shailesh,
-        //     name:"Shailesh Tilekar",
-        //     role:"Creative Head",
-        //     instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" ,
-        //     linkdinLink:"https://www.linkedin.com/company/knm-studio/ "
-        // },
         {
             key:3,
             src:Sayali,
@@ -42,15 +28,15 @@ const OurTeam =() =>{
         },
         {
             key:4,
-            src:Nikhil,
-            name:"Sundanshu Sharma",
+            src:sudanshu,
+            name:"Sudanshu Sharma",
             role:"Operation Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
         {
             key:5,
-            src:Sarah,
+            src:vinod,
             name:"Vinod Rathod",
             role:"Lead video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -58,25 +44,17 @@ const OurTeam =() =>{
         },
         {
             key:6,
-            src:Ashiwajbe,
+            src:Sanjana,
             name:"Sanjana Patankar",
             role:"video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
-        {
-            key:7,
-            src:AlanaritiAhuja,
-            name:"Mansi Gaurkar",
-            role:"Growth Marketing Head",
-            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
-            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
-        },
         // {
-        //     key:8,
-        //     src:DeepakBhalerao,
-        //     name:"Deepak Bhalerao",
-        //     role:"Video Editor",
+        //     key:7,
+        //     src:mansi,
+        //     name:"Mansi Gaurkar",
+        //     role:"Growth Marketing Head",
         //     instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
         //     linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         // },
@@ -130,113 +108,6 @@ const OurTeam =() =>{
                     role={el.role}
                />
                 ))}
-
-                     {/* <div className={style.member}>
-                          <img className={style.cardImg} src={Sparsh} alt="knmStudioTeam" width={400} height={550} />
-                                <div className={style.memberContent}>
-                                    <div className={style.memberName}>Sparsh Agrawal</div>
-                                    <div className={style.memberRole}> Founder </div>
-                                    <div className={style.userSocialMedia}>
-                                        <div className={style.userSocialMediaIcons}>
-                                            <a 
-                                               href="https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" 
-                                               target="_blank" rel="noreferrer" >
-                                                <AiFillInstagram size={25} />
-                                            </a>
-                                        </div>
-                                        <div className={style.userSocialMediaIcons}>
-                                             <a 
-                                               href="https://www.linkedin.com/company/knm-studio/ "
-                                               target="_blank" rel="noreferrer" >
-                                              <FaLinkedinIn size={25} />
-                                             </a>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                    <div className={style.member}>
-                          <img className={style.cardImg} src={Shailesh} alt="knmStudioTeam" width={400} height={550} />
-                                <div className={style.memberContent}>
-                                    <div className={style.memberName}>Shailesh Tilekar</div>
-                                    <div className={style.memberRole}> Creative Head </div>
-                                    <div className={style.userSocialMedia}>
-                                        <div className={style.userSocialMediaIcons}>
-                                            <a 
-                                               href="https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" 
-                                               target="_blank" rel="noreferrer" >
-                                                <AiFillInstagram size={25} />
-                                            </a>
-                                        </div>
-                                        <div className={style.userSocialMediaIcons}>
-                                             <a 
-                                               href="https://www.linkedin.com/company/knm-studio/ "
-                                               target="_blank" rel="noreferrer" >
-                                              <FaLinkedinIn size={25} />
-                                             </a>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                    <div className={style.member}>
-                          <img className={style.cardImg} src={Sayali} alt="knmStudioTeam" width={400} height={550} />
-                                <div className={style.memberContent}>
-                                    <div className={style.memberName}>Sayali RasKar</div>
-                                    <div className={style.memberRole}> Chief Editor  </div>
-                                    <div className={style.userSocialMedia}>
-                                        <div className={style.userSocialMediaIcons}>
-                                            <a 
-                                               href="https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" 
-                                               target="_blank" rel="noreferrer" >
-                                                <AiFillInstagram size={25} />
-                                            </a>
-                                        </div>
-                                        <div className={style.userSocialMediaIcons}>
-                                             <a 
-                                               href="https://www.linkedin.com/company/knm-studio/ "
-                                               target="_blank" rel="noreferrer" >
-                                              <FaLinkedinIn size={25} />
-                                             </a>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                    <div className={style.member}>
-                          <img className={style.cardImg} src={Nikhil} alt="knmStudioTeam" width={400} height={550} />
-                                <div className={style.memberContent}>
-                                    <div className={style.memberName}>Nikhil Inamke</div>
-                                    <div className={style.memberRole}> Corporate Head </div>
-                                    <div className={style.userSocialMedia}>
-                                        <div className={style.userSocialMediaIcons}>
-                                            <a 
-                                               href="https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D" 
-                                               target="_blank" rel="noreferrer" >
-                                                <AiFillInstagram size={25} />
-                                            </a>
-                                        </div>
-                                        <div className={style.userSocialMediaIcons}>
-                                             <a 
-                                               href="https://www.linkedin.com/company/knm-studio/ "
-                                               target="_blank" rel="noreferrer" >
-                                              <FaLinkedinIn size={25} />
-                                             </a>
-                                        </div>
-                                    </div>
-                                </div>
-                    </div>
-                 */}
-                    {/* </Slider> */}
-                    <br/>
-                    <br/>
-                    {/* <Slider {...settings}>
-                {ourTeamData.map((el) =>(
-                    <OurTeamCard 
-                    key={el.key}
-                    src={el.src}
-                    name={el.name}
-                    role={el.role}
-               />
-               ))}
-                </Slider> */}
                 </div>
                
             </div>

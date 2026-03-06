@@ -1,109 +1,88 @@
 import style from "./BrandQue.module.css";
-// import A from "../../img/Brand/A.png";
-// import B from "../../img/Brand/B.png";
-// import C from "../../img/Brand/C.png";
-// import E from "../../img/Brand/E.png";
-// import F from "../../img/Brand/F.png";
-// import I from "../../img/Brand/I.jpg";
 
-import ACS from "../../img/KNMClientLOGO/ACS.png";
-import AEG from "../../img/KNMClientLOGO/Aegte.png";
-import BAR from "../../img/KNMClientLOGO/Barclays.png";
-import BBE from "../../img/KNMClientLOGO/Bharat benz.png";
-import BRC from "../../img/KNMClientLOGO/Bryan & Candy.png";
-import DIO from "../../img/KNMClientLOGO/Digi Osmosis.png";
-import GDG from "../../img/KNMClientLOGO/GDG.png";
-import GOP from "../../img/KNMClientLOGO/Godrej properties.png";
-import LIVA from "../../img/KNMClientLOGO/Liva.png";
-import ONE8 from "../../img/KNMClientLOGO/One8.png";
-// import PNG from "../../img/KNMClientLOGO/PNG.png";
-import PLO from "../../img/KNMClientLOGO/Plastic Omnium.png";
-import SPA from "../../img/KNMClientLOGO/Spardha.png";
-import VIP from "../../img/KNMClientLOGO/Vips.png";
-import VIVO from "../../img/KNMClientLOGO/Vivo.png";
+import L1 from "../../img/KNMClientLOGO/1.png";
+import L2 from "../../img/KNMClientLOGO/2.png";
+import L3 from "../../img/KNMClientLOGO/3.png";
+import L4 from "../../img/KNMClientLOGO/4.png";
+import L5 from "../../img/KNMClientLOGO/5.png";
+import L6 from "../../img/KNMClientLOGO/6.png";
+import L7 from "../../img/KNMClientLOGO/7.png";
+import L8 from "../../img/KNMClientLOGO/8.png";
+import L9 from "../../img/KNMClientLOGO/9.png";
+import L10 from "../../img/KNMClientLOGO/10.png";
+import L11 from "../../img/KNMClientLOGO/11.png";
+import L12 from "../../img/KNMClientLOGO/12.png";
+import L13 from "../../img/KNMClientLOGO/13.png";
+import L14 from "../../img/KNMClientLOGO/14.png";
+import L15 from "../../img/KNMClientLOGO/15.png";
+import L16 from "../../img/KNMClientLOGO/16.png";
+import L17 from "../../img/KNMClientLOGO/17.png";
+import L18 from "../../img/KNMClientLOGO/18.png";
+import L19 from "../../img/KNMClientLOGO/19.png";
+import L20 from "../../img/KNMClientLOGO/20.png";
+import L21 from "../../img/KNMClientLOGO/21.png";
 
+import L22 from "../../img/KNMClientLOGO/22.png";
+import L23 from "../../img/KNMClientLOGO/23.png";
+import L24 from "../../img/KNMClientLOGO/24.png";
+import L25 from "../../img/KNMClientLOGO/25.png";
+import L26 from "../../img/KNMClientLOGO/26.png";
+import L27 from "../../img/KNMClientLOGO/27.png";
+import L28 from "../../img/KNMClientLOGO/28.png";
+import L29 from "../../img/KNMClientLOGO/29.png";
+import L30 from "../../img/KNMClientLOGO/30.png";
+import L31 from "../../img/KNMClientLOGO/31.png";
+import L32 from "../../img/KNMClientLOGO/32.png";
+import L33 from "../../img/KNMClientLOGO/33.png";
+import L34 from "../../img/KNMClientLOGO/34.png";
+import L35 from "../../img/KNMClientLOGO/35.png";
+import L36 from "../../img/KNMClientLOGO/36.png";
+import L37 from "../../img/KNMClientLOGO/37.png";
+import L38 from "../../img/KNMClientLOGO/38.png";
+import L39 from "../../img/KNMClientLOGO/39.png";
+import L40 from "../../img/KNMClientLOGO/40.png";
+import L41 from "../../img/KNMClientLOGO/41.png";
+import L42 from "../../img/KNMClientLOGO/42.png";
 
+const BRAND_QUE = () => {
 
-const BRAND_QUE = () =>{
-    return(
-        <>
-            <div className={style.container}>
+const row1 = [
+L1,L2,L3,L4,L5,L6,L7,L8,L9,L10,
+L11,L12,L13,L14,L15,L16,L17,L18,L19,L20,L21
+];
 
-                <div className={style.brandList}>
-                   <img src={ONE8} alt="" height={150}  />
-                   <img src={LIVA} alt="" height={150}  />
-                   <img src={BAR} alt="" height={150}  />
-                   <img src={VIVO} alt="" height={150}  />
-                   <img src={GOP} alt="" height={160} />
-                   <img src={BBE} alt="" height={160}  />
-                   <img src={BRC} alt="" height={150}  />
-                   <img src={PLO} alt="" height={150}  />
-                   <img src={AEG} alt="" height={150}  />
-                   <img src={GDG} alt="" height={160}  />
-                   <img src={ACS} alt="" height={150}  />
-                   <img src={DIO} alt="" height={145}  />
-                   <img src={SPA} alt="" height={145}  />
-                   {/* <img src={PNG} alt="" height={130}  /> */}
-                   <img src={VIP} alt="" height={150}  />
+const row2 = [
+L22,L23,L24,L25,L26,L27,L28,L29,L30,L31,
+L32,L33,L34,L35,L36,L37,L38,L39,L40,L41,L42
+];
 
-                </div>
-                <div className={style.brandListPhone}>
-                   <div>
-                   <img src={ONE8} alt="" height={150}  />
-                   <img src={LIVA} alt="" height={150}  />
-                   </div>
-                   <div>
-                   <img src={BAR} alt="" height={150}  />
-                   <img src={VIVO} alt="" height={150}  />
-                   </div>
-                   <div>
-                   <img src={GOP} alt="" height={160} />
-                   <img src={BBE} alt="" height={160}  />
-                   </div>
-                   <div>
-                   <img src={BRC} alt="" height={150}  />
-                   <img src={PLO} alt="" height={150}  />
-                   </div>
-                   <div>
-                   <img src={AEG} alt="" height={150}  />
-                   <img src={GDG} alt="" height={160}  />
-                   </div>
-                   <div>
-                   <img src={ACS} alt="" height={150}  />
-                   <img src={DIO} alt="" height={145}  />
-                   </div>
-                   <div>
-                   <img src={SPA} alt="" height={145}  />
-                   {/* <img src={PNG} alt="" height={130}  /> */}
-                   <img src={VIP} alt="" height={150}  />
-                   </div>
-                </div>
+return(
+<div className={style.container}>
 
-                {/* <div className={style.brandList}>
-                    <img src={A} alt="" height={130}  />
-                    <img src={B} alt="" height={130}  />
-                    <img src={C} alt="" height={130}  />
-                    <img src={E} alt="" height={130}  />
-                    <img src={F} alt="" height={130}  />
-                    <img src={I} alt="" height={130}  />
-                </div>
-                <div className={style.brandListPhone}>
-                    <div>
-                    <img src={A} alt="" height={130}  />
-                    <img src={B} alt="" height={130}  />
-                    </div>
-                    <div>
-                    <img src={C} alt="" height={130}  />
-                    <img src={E} alt="" height={130}  />
-                    </div>
-                    <div>
-                    <img src={F} alt="" height={130}  />
-                    <img src={I} alt="" height={130}  />
-                    </div>
-                </div> */}
-            </div>
+{/* Row 1 */}
+<div className={style.marquee}>
+<div className={style.track}>
 
-        </>
-    );
+{[...row1,...row1].map((logo,index)=>(
+<img key={index} src={logo} alt="brand"/>
+))}
+
+</div>
+</div>
+
+{/* Row 2 */}
+<div className={style.marqueeReverse}>
+<div className={style.track}>
+
+{[...row2,...row2].map((logo,index)=>(
+<img key={index} src={logo} alt="brand"/>
+))}
+
+</div>
+</div>
+
+</div>
+)
 }
+
 export default BRAND_QUE;

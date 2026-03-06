@@ -1,107 +1,85 @@
-/* .container{
-    padding: 3rem 0rem;
-    backdrop-filter: blur(200px);
-}
-
-.brandList{
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
- .brandList img{
-    margin: -0.2rem 0rem ;
-    background-color: white;
-    padding: 1rem ;
-    aspect-ratio: 3/1;
-    border: 0.5px solid rgb(0, 0, 0.30);
-    object-fit: contain;
-    justify-content: center;
-    opacity: 99;
-}  
-.brandListPhone{
-    display: none;
-}
-
-
-@media screen and (max-width: 480px){
-    .container{
-        justify-content: center;
-        padding: 2rem 0.2rem;
-        white-space: none;
-    }
-    .brandList{
-        display: none;
-    }
-    .brandListPhone {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-        background-color: white;
-        overflow-y: hidden;
-
-    }
-    .brandListPhone img {
-        aspect-ratio: 1/1;
-        object-fit: contain;
-        justify-content: center;
-        scale: 1.2;
-    }
-   
-    .brandListPhone div img:nth-child(2){
-        padding-left:2rem ;
-    }
-
-} */
-
 .container{
-    /* background: white; */
-    /* backdrop-filter: blur(1000px); */
-    min-width: 100%;
-    /* min-height: 60vh; */
-    padding: 0rem 0rem 2rem 0rem;
-    justify-content: center;
+width:100%;
+overflow:hidden;
+padding:2rem 0;
+display:flex;
+flex-direction:column;
+gap:0;
 }
-.brandList{
-    /* color: white; */
-    justify-content: center;
-    text-align: center;
-}
-.brandList img{
-    margin: 0rem 0.5rem ;
-    /* padding: 1rem ; */
-    aspect-ratio: 1.5/1;
-    /* border: 0.5px solid rgb(0, 0, 0.30); */
-    object-fit: contain;
-    justify-content: center;
-    opacity: 99;
-    filter: drop-shadow(20px 20px 10px black);
-} 
-.brandListPhone{
-    display: none;
-}
-@media screen and (max-width: 480px){
 
-    .container{
-        padding: 0rem 0rem 2rem 0rem;
-         justify-content: center;
-    }  
-    .brandList{
-        display: none;
-    }
-    .brandListPhone {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-        /* background-color: white; */
-        overflow-y: hidden;
-    }
-    .brandListPhone img {
-        aspect-ratio: 1/1;
-        object-fit: contain;
-        justify-content: center;
-        scale: 0.9;
-        padding-left: 1rem;
-    }
+/* ROW CONTAINER */
+
+.marquee{
+overflow:hidden;
+white-space:nowrap;
+}
+
+.marqueeReverse{
+overflow:hidden;
+white-space:nowrap;
+margin-top:-25px; /* moves second row closer to first */
+}
+
+/* TRACK */
+
+.track{
+display:flex;
+align-items:center;
+gap:80px;
+animation: scrollLeft 15s linear infinite;
+}
+
+.marqueeReverse .track{
+animation: scrollRight 15s linear infinite;
+}
+
+/* LOGOS */
+
+.track img{
+height:300px;
+object-fit:contain;
+filter: drop-shadow(0px 6px 10px rgba(0,0,0,0.45));
+transition: transform 0.1s ease;
+}
+
+.track img:hover{
+transform:scale(1.12);
+}
+
+/* ANIMATIONS */
+
+@keyframes scrollLeft{
+0%{
+transform:translateX(0);
+}
+100%{
+transform:translateX(-50%);
+}
+}
+
+@keyframes scrollRight{
+0%{
+transform:translateX(-50%);
+}
+100%{
+transform:translateX(0);
+}
+}
+
+/* MOBILE */
+
+@media(max-width:480px){
+
+.track{
+gap:40px;
+}
+
+.track img{
+height:150px;
+}
+
+.marqueeReverse{
+margin-top:-15px;
+}
+
 }
