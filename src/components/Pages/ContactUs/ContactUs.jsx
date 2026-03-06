@@ -36,7 +36,7 @@ const ContactUs = () =>{
                     <div className={style.contactFormSecond}> 
                      <div className={style.contactInfo}>
                         <div className={style.contactHead}><FaLocationDot /> &nbsp;&nbsp; HEAD OFFICE:</div>
-                        <div className={style.contactSubHead}> Bunglow 6,PERIWINKLE <br/>SOCIETY,Yogi Park,<br />Baner, Pune, India, 411069</div>
+                        <div className={style.contactSubHead}> Bunglow No. 6,PERIWINKLE <br/>SOCIETY,Yogi Park,<br />Baner, Pune, India, 411069</div>
                         <div className={style.contactHead}><FaPhoneVolume /> &nbsp;&nbsp;PHONES:</div>
                         <div className={style.contactSubHead}>+91 97666 59668</div>
                         <div className={style.contactHead}><MdEmail /> &nbsp;&nbsp;WRITE US:</div>
