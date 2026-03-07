@@ -30,15 +30,6 @@ const Home = () =>{
     },[]);
     return(
         <>
-        {/* {
-            loading ?
-            <ClipLoader
-            loading={loading}
-            color="#e6bd08"
-            size={150}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          /> : */}
           <div className={style.homeContainer}>
 
           <div className={style.mainContainer}>
