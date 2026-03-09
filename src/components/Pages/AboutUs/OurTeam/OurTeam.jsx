@@ -15,6 +15,8 @@ import Sanjana  from "../../../../img/OurTeam/Sanjana.jpeg";
 import sudanshu  from "../../../../img/OurTeam/sudanshu.jpeg";
 import vinod  from "../../../../img/OurTeam/vinod.jpeg";
 import mansi  from "../../../../img/OurTeam/mansi.jpeg";
+import niraj  from "../../../../img/OurTeam/Nagraj.jpeg";
+
 
 const OurTeam =() =>{
     const ourTeamData = [
@@ -63,6 +65,14 @@ const OurTeam =() =>{
             src:YashAgrawal,
             name:"Yash Agrawal",
             role:"Cinematographer",
+            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        },
+        {
+            key:9,
+            src:niraj,
+            name:"Nagraj Hosamani",
+            role:"Video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
