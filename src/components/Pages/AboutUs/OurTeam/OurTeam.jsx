@@ -9,18 +9,18 @@ import { FaCircle } from "react-icons/fa";
 
 import OurTeamCard from "./OurTeamCard/OurTeamCard";
 // import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
-import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
-import YashAgrawal  from "../../../../img/OurTeam/SHA02760.jpg";
-import Sanjana  from "../../../../img/OurTeam/Sanjana.jpeg";
-import sudanshu  from "../../../../img/OurTeam/sudanshu.jpeg";
-import vinod  from "../../../../img/OurTeam/vinod.jpeg";
-import mansi  from "../../../../img/OurTeam/mansi.jpeg";
+import Sayali1  from "../../../../img/OurTeam/Sayali1.jpg";
+import Yash1  from "../../../../img/OurTeam/Yash1.jpg";
+import Sanjana1  from "../../../../img/OurTeam/Sanjana1.jpeg";
+import Sudanshu1  from "../../../../img/OurTeam/Sudanshu1.jpg";
+import Vinod1  from "../../../../img/OurTeam/Vinod1.jpeg";
+import Mansi2  from "../../../../img/OurTeam/Mansi2.jpeg";
 
 const OurTeam =() =>{
     const ourTeamData = [
         {
             key:3,
-            src:Sayali,
+            src:Sayali1,
             name:"Sayali RasKar",
             role:"Chief Editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -28,7 +28,7 @@ const OurTeam =() =>{
         },
         {
             key:4,
-            src:sudanshu,
+            src:Sudanshu1,
             name:"Sudanshu Sharma",
             role:"Operation Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -36,7 +36,7 @@ const OurTeam =() =>{
         },
         {
             key:5,
-            src:vinod,
+            src:Vinod1,
             name:"Vinod Rathod",
             role:"Lead video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -44,7 +44,7 @@ const OurTeam =() =>{
         },
         {
             key:6,
-            src:Sanjana,
+            src:Sanjana1,
             name:"Sanjana Patankar",
             role:"video editor",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -52,7 +52,7 @@ const OurTeam =() =>{
         },
         {
             key:7,
-            src:mansi,
+            src:Mansi2,
             name:"Mansi Gaurkar",
             role:"Growth Marketing Head",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
@@ -60,7 +60,7 @@ const OurTeam =() =>{
         },
         {
             key:9,
-            src:YashAgrawal,
+            src:Yash1,
             name:"Yash Agrawal",
             role:"Cinematographer",
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
