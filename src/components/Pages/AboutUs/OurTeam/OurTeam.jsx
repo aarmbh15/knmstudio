@@ -9,12 +9,12 @@ import { FaCircle } from "react-icons/fa";
 
 import OurTeamCard from "./OurTeamCard/OurTeamCard";
 // import Shailesh from "../../../../img/OurTeam/SHA02741.jpg";
-import Sayali  from "../../../../img/OurTeam/SHA02701.jpg";
-import YashAgrawal  from "../../../../img/OurTeam/SHA02760.jpg";
-import Sanjana  from "../../../../img/OurTeam/Sanjana.jpeg";
-import sudanshu  from "../../../../img/OurTeam/sudanshu.jpeg";
-import vinod  from "../../../../img/OurTeam/vinod.jpeg";
-import mansi  from "../../../../img/OurTeam/mansi.jpeg";
+import Sayali1  from "../../../../img/OurTeam/Sayali1.jpg";
+import Yash1  from "../../../../img/OurTeam/Yash1.jpg";
+import Sanjana1  from "../../../../img/OurTeam/Sanjana1.jpeg";
+import Sudanshu1  from "../../../../img/OurTeam/Sudanshu1.jpg";
+import Vinod1  from "../../../../img/OurTeam/Vinod1.jpeg";
+import Mansi2  from "../../../../img/OurTeam/Mansi2.jpeg";
 
 const OurTeam =() =>{
     const ourTeamData = [
@@ -66,14 +66,14 @@ const OurTeam =() =>{
             instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
             linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
         },
-        {
-            key:9,
-            src:niraj,
-            name:"Nagraj Hosamani",
-            role:"Video editor",
-            instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
-            linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
-        },
+        // {
+        //     key:9,
+        //     src:niraj,
+        //     name:"Nagraj Hosamani",
+        //     role:"Video editor",
+        //     instaLink:"https://www.instagram.com/studio.knm/?igshid=MjEwN2IyYWYwYw%3D%3D",
+        //     linkdinLink:"https://www.linkedin.com/company/knm-studio/" 
+        // },
         
     ];
     const settings = {
