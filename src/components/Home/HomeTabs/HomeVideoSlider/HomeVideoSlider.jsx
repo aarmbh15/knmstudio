@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./HomeVideoSlider.module.css";
 import heroVideo from "../../../../video/KNM_Portfolio_1080P[Mute].mp4";
+// import posterImage from "../../../../video/poster.jpg"; // optional fallback image
 
 const HomeHeroVideo = () => {
-
   return (
     <section className={styles.heroSliderSection}>
-
       <div className={styles.slideWrapper}>
 
         <video
@@ -15,7 +14,7 @@ const HomeHeroVideo = () => {
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
         >
           <source src={heroVideo} type="video/mp4" />
         </video>
@@ -23,7 +22,6 @@ const HomeHeroVideo = () => {
         <div className={styles.videoOverlay}></div>
 
       </div>
-
     </section>
   );
 };
