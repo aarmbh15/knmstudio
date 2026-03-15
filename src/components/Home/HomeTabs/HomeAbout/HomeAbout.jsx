@@ -10,7 +10,7 @@ import { PiLightbulbLight } from "react-icons/pi";
 import { SlLayers } from "react-icons/sl";
 import { TbBinaryTree } from "react-icons/tb";      
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { VscDash } from "react-icons/vsc";
+// import { VscDash } from "react-icons/vsc";
 
 const HomeAbout = () => {
     const [counterOn, setCounterOn] = useState(false);

@@ -12,7 +12,7 @@ import HomeVision from "./HomeTabs/HomeVision/HomeVision";
 import HomeTestimonial from "./HomeTabs/HomeTestimonial/HomeTestimonial";
 import HomeBlogs from "./HomeTabs/HomeBlogs/HomeBlogs";
 
-import ClipLoader from "react-spinners/ClipLoader";
+// import ClipLoader from "react-spinners/ClipLoader";
 
 import { FaCircle } from "react-icons/fa";
 import BrandQue from "../BrandQue/BrandQue";

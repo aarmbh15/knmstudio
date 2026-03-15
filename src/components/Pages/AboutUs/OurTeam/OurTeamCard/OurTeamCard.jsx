@@ -1,6 +1,6 @@
 import style from './OurTeamCard.module.css';
-import { AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { AiFillInstagram } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 const OurTeamCard =(props) =>{
     // console.log("Tests");
     return(

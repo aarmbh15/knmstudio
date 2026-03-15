@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import style from './HomeBlogs.module.css';
 import { Link } from "react-router-dom";
 import BL1 from "../../../../img/BlogImg/Some-of-the-Most-Viral-Advertisements.jpg"

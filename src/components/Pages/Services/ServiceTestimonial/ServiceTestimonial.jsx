@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 import HomeTestimonialCard from "../../../Home/HomeTabs/HomeTestimonial/HomeTestimonialCard/HomeTestimonialCard";
 
-import { FaCircle } from "react-icons/fa";
+// import { FaCircle } from "react-icons/fa";
 
 const HomeTestimonial =() =>{
 
