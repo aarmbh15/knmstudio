@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b67e12c1.css",
-    "main.js": "/static/js/main.b72f6c10.js",
+    "main.css": "/static/css/main.01e23cb1.css",
+    "main.js": "/static/js/main.e8c00dbb.js",
     "static/js/288.35d0d35e.chunk.js": "/static/js/288.35d0d35e.chunk.js",
     "static/media/Lip Balm Female.mp4": "/static/media/Lip Balm Female.f56c7e8efe468afcfe95.mp4",
     "static/media/Mens_DD_Cream.mp4": "/static/media/Mens_DD_Cream.dfb4f7d9da975c16268a.mp4",
@@ -53,7 +53,6 @@
     "static/media/SPA.png": "/static/media/SPA.05e7c1123f23db99cddb.png",
     "static/media/Liva.png": "/static/media/Liva.000c9c8297b8f4339be6.png",
     "static/media/LOR.png": "/static/media/LOR.ef9c6140bfaba3cd0a61.png",
-    "static/media/APM.png": "/static/media/APM.608a0d2ea702e3014bc4.png",
     "static/media/OAM.png": "/static/media/OAM.51527c8776cdcfb7d510.png",
     "static/media/CBH.png": "/static/media/CBH.3188339dc3dad1820fa1.png",
     "static/media/OPmobility (Manufacturing).jpg": "/static/media/OPmobility (Manufacturing).6345eb97bab7deb6582c.jpg",
@@ -87,7 +86,6 @@
     "static/media/nike-thumbnail.jpg": "/static/media/nike-thumbnail.74f5b0b5e1c16ef9c205.jpg",
     "static/media/BHU.jpg": "/static/media/BHU.41688ca8212f9c08f792.jpg",
     "static/media/Old-spice-thumbnail.jpg": "/static/media/Old-spice-thumbnail.246a84912c581e614144.jpg",
-    "static/media/MCA.png": "/static/media/MCA.d0bbd0dcd42fdc74c4db.png",
     "static/media/9.png": "/static/media/9.cc5b210d3d876e6fe05d.png",
     "static/media/25.png": "/static/media/25.597e5c0474abdc26b371.png",
     "static/media/apple-thumbnail.jpg": "/static/media/apple-thumbnail.088fcf71f14f3de5e805.jpg",
@@ -156,12 +154,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b67e12c1.css.map": "/static/css/main.b67e12c1.css.map",
-    "main.b72f6c10.js.map": "/static/js/main.b72f6c10.js.map",
+    "main.01e23cb1.css.map": "/static/css/main.01e23cb1.css.map",
+    "main.e8c00dbb.js.map": "/static/js/main.e8c00dbb.js.map",
     "288.35d0d35e.chunk.js.map": "/static/js/288.35d0d35e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b67e12c1.css",
-    "static/js/main.b72f6c10.js"
+    "static/css/main.01e23cb1.css",
+    "static/js/main.e8c00dbb.js"
   ]
 }
